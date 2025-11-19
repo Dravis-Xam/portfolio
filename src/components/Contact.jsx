@@ -2,7 +2,6 @@ import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
 import { FaEnvelope, FaPhone, FaMapMarkerAlt, FaGithub, FaLinkedin, FaRocket, FaSatellite, FaTransmitter } from 'react-icons/fa';
 import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
 
 const Contact = () => {
   const [state, handleSubmit] = useForm("mblwkdjb");
