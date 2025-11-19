@@ -1,6 +1,6 @@
 import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
-import { FaEnvelope, FaPhone, FaMapMarkerAlt, FaGithub, FaLinkedin, FaRocket, FaSatellite, FaTransmitter } from 'react-icons/fa';
+import { FaEnvelope, FaPhone, FaMapMarkerAlt, FaGithub, FaLinkedin, FaRocket, FaSatellite, FaMicrochip } from 'react-icons/fa';
 import { ToastContainer, toast } from 'react-toastify';
 
 const Contact = () => {
@@ -89,7 +89,7 @@ const Contact = () => {
           <div className="inline-flex items-center space-x-3 mb-4">
             <FaSatellite className="text-cyan-400 animate-spin-slow" />
             <span className="text-cyan-400 text-sm font-mono tracking-widest">QUANTUM COMMUNICATIONS</span>
-            <FaTransmitter className="text-purple-400 animate-pulse" />
+            <FaMicrochip className="text-purple-400 animate-pulse" />
           </div>
           <h2 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-cyan-400 via-blue-400 to-purple-400 bg-clip-text text-transparent">
             Initiate Contact
