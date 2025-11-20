@@ -1,5 +1,7 @@
 import React from 'react';
 import { FaGithub, FaEnvelope, FaDownload, FaLinkedin, FaRocket, FaCode, FaBrain } from 'react-icons/fa';
+import TypingEffect from './TypingEffect';
+import { TypeAnimation } from 'react-type-animation';
 
 const Hero = () => {
   return (
@@ -44,7 +46,11 @@ const Hero = () => {
                 <div className="flex items-center space-x-4">
                   <div className="w-16 h-1 bg-gradient-to-r from-cyan-500 to-purple-500 rounded-full"></div>
                   <h2 className="text-2xl md:text-3xl text-cyan-300 font-mono tracking-widest">
-                    FULL_STACK_ARCHITECT
+                    <TypeAnimation
+                      sequence={["FULL_STACK_ARCHITECT", 1000]}
+                      speed={250}
+                      repeat={0}
+                    />
                   </h2>
                 </div>
               </div>

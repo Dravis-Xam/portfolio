@@ -144,13 +144,13 @@ const Projects = () => {
                     >
                       <FaGithub className="text-cyan-300 hover:text-white text-xl" />
                     </a>
-                    <a
+                    {index == 0 && <a
                       target='_blank'
                       href={project.live}
                       className="p-3 bg-slate-800/90 backdrop-blur-sm border border-purple-500/50 rounded-xl hover:bg-purple-500 hover:scale-110 transition-all duration-300 transform hover:-rotate-12"
                     >
                       <FaExternalLinkAlt className="text-purple-300 hover:text-white text-xl" />
-                    </a>
+                    </a>}
                   </div>
                   
                   {/* Scanning Line */}

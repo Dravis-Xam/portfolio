@@ -4,9 +4,8 @@ import { FaCode, FaPalette, FaRocket, FaBrain, FaAtom, FaShieldAlt } from 'react
 const About = () => {
   const stats = [
     { number: '2+', label: 'Years Experience', suffix: 'yr' },
-    { number: '50+', label: 'Projects Completed', suffix: '+' },
-    { number: '30+', label: 'Happy Clients', suffix: '+' },
-    { number: '15+', label: 'Technologies', suffix: '+' },
+    { number: '10+', label: 'Projects Completed', suffix: '+' },
+    { number: '10+', label: 'Technologies', suffix: '+' },
   ];
 
   const features = [
